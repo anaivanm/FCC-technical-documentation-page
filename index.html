@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="This is a tribute page - the first assignment part of the Responsive Web Development curriculum on Freecodecamp.org"/>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="#">Technical documentation</a>
+    </nav>
+    <main>
+      <div class="row">
+        <section class="col-4">
+          <div class="list-group" id="list-tab" role="tablist">
+            <a class="list-group-item list-group-item-action active" id="list-dashboard-list" data-toggle="list" href="#list-dashboard" role="tab" aria-controls="dashboard">The Dashboard</a>
+            <a class="list-group-item list-group-item-action" id="list-structure-list" data-toggle="list" href="#list-structure" role="tab" aria-controls="structure">The Structure View</a>
+            <a class="list-group-item list-group-item-action" id="list-editor-list" data-toggle="list" href="#list-editor" role="tab" aria-controls="editor">The Editor</a>
+            <a class="list-group-item list-group-item-action" id="list-review-list" data-toggle="list" href="#list-review" role="tab" aria-controls="review">The Review View</a>
+            <a class="list-group-item list-group-item-action" id="list-markdown-list" data-toggle="list" href="#list-markdown" role="tab" aria-controls="markdown">The Markdown Editor</a>
+            <a class="list-group-item list-group-item-action" id="list-translation-list" data-toggle="list" href="#list-translation" role="tab" aria-controls="translation">The Translation View</a>
+            <a class="list-group-item list-group-item-action" id="list-resource-list" data-toggle="list" href="#list-resource" role="tab" aria-controls="resource">The Resource View</a>
+            <a class="list-group-item list-group-item-action" id="list-content-list" data-toggle="list" href="#list-content" role="tab" aria-controls="content">The Content Manager</a>
+            <a class="list-group-item list-group-item-action" id="list-taxonomy-list" data-toggle="list" href="#list-taxonomy" role="tab" aria-controls="taxonomy">The Taxonomy Manager</a>
+            <a class="list-group-item list-group-item-action" id="list-author-list" data-toggle="list" href="#list-author" role="tab" aria-controls="author">Authoring</a>
+            <a class="list-group-item list-group-item-action" id="list-var-list" data-toggle="list" href="#list-var" role="tab" aria-controls="var">Variables</a>
+            <a class="list-group-item list-group-item-action" id="list-publish-list" data-toggle="list" href="#list-publish" role="tab" aria-controls="publish">Publishing</a>
+            <a class="list-group-item list-group-item-action" id="list-workflow-list" data-toggle="list" href="#list-workflow" role="tab" aria-controls="workflow">Workflow and assignments</a>
+            <a class="list-group-item list-group-item-action" id="list-version-list" data-toggle="list" href="#list-version" role="tab" aria-controls="version">Version Management</a>
+            <a class="list-group-item list-group-item-action" id="list-search-list" data-toggle="list" href="#list-search" role="tab" aria-controls="search">Searching and Navigating</a><a class="list-group-item list-group-item-action" id="list-import-list" data-toggle="list" href="#list-import" role="tab" aria-controls="import">Importing</a>
+            <a class="list-group-item list-group-item-action" id="list-admin-list" data-toggle="list" href="#list-admin" role="tab" aria-controls="admin">Settings and Administration</a>
+            <a class="list-group-item list-group-item-action" id="list-glossary-list" data-toggle="list" href="#list-glossary" role="tab" aria-controls="glossary">Glossary</a>
+          </div>
+        </section>
+        <section class="col-8 pt-4">
+          <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="list-dashboard" role="tabpanel" aria-labelledby="list-dashboard-list">
+              <header>
+                <h5>The Dashboard</h5>
+              </header>
+              <br/>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione illo hic ipsum voluptatibus unde doloribus rerum, aspernatur, similique necessitatibus fugit illum, distinctio eveniet consequuntur veritatis iure nostrum placeat aperiam. Corporis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <br/>
+              <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+              </ul>
+              <br/>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione illo hic ipsum voluptatibus unde doloribus rerum, aspernatur, similique necessitatibus fugit illum, distinctio eveniet consequuntur veritatis iure nostrum placeat aperiam. Corporis.</p>
+              <br/>
+              <hr>
+              <br/>
+              <div class="text-center">
+                <h6>How would you rate this article?</h6>
+                <div>
+                  <button type="button" class="btn btn-outline-secondary">Not helpful</button>
+                  <button type="button" class="btn btn-outline-success">Helpful</button>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="list-structure" role="tabpanel" aria-labelledby="list-structure-list">
+              <header>
+                <h5>The Structure View</h5>
+              </header>
+              <br/>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione illo hic ipsum voluptatibus unde doloribus rerum, aspernatur, similique necessitatibus fugit illum, distinctio eveniet consequuntur veritatis iure nostrum placeat aperiam. Corporis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <br/>
+              <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+              </ul>
+              <br/>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione illo hic ipsum voluptatibus unde doloribus rerum, aspernatur, similique necessitatibus fugit illum, distinctio eveniet consequuntur veritatis iure nostrum placeat aperiam. Corporis.</p>
+              <br/>
+              <hr>
+              <br/>
+              <div class="text-center">
+                <h6>How would you rate this article?</h6>
+                <div>
+                  <button type="button" class="btn btn-outline-secondary">Not helpful</button>
+                  <button type="button" class="btn btn-outline-success">Helpful</button>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="list-editor" role="tabpanel" aria-labelledby="list-editor-list">
+              <header>
+                <h5>The Editor</h5>
+              </header>
+              <br/>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione illo hic ipsum voluptatibus unde doloribus rerum, aspernatur, similique necessitatibus fugit illum, distinctio eveniet consequuntur veritatis iure nostrum placeat aperiam. Corporis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <br/>
+              <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+              </ul>
+              <br/>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione illo hic ipsum voluptatibus unde doloribus rerum, aspernatur, similique necessitatibus fugit illum, distinctio eveniet consequuntur veritatis iure nostrum placeat aperiam. Corporis.</p>
+              <br/>
+              <hr>
+              <br/>
+              <div class="text-center">
+                <h6>How would you rate this article?</h6>
+                <div>
+                  <button type="button" class="btn btn-outline-secondary">Not helpful</button>
+                  <button type="button" class="btn btn-outline-success">Helpful</button>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="list-review" role="tabpanel" aria-labelledby="list-review-list">
+              <header>
+                <h5>The Review View</h5>
+              </header>
+              <br/>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione illo hic ipsum voluptatibus unde doloribus rerum, aspernatur, similique necessitatibus fugit illum, distinctio eveniet consequuntur veritatis iure nostrum placeat aperiam. Corporis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <br/>
+              <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+              </ul>
+              <br/>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione illo hic ipsum voluptatibus unde doloribus rerum, aspernatur, similique necessitatibus fugit illum, distinctio eveniet consequuntur veritatis iure nostrum placeat aperiam. Corporis.</p>
+              <br/>
+              <hr>
+              <br/>
+              <div class="text-center">
+                <h6>How would you rate this article?</h6>
+                <div>
+                  <button type="button" class="btn btn-outline-secondary">Not helpful</button>
+                  <button type="button" class="btn btn-outline-success">Helpful</button>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="list-markdown" role="tabpanel" aria-labelledby="list-markdown-list">
+              <header>
+                <h5>The Markdown Editor</h5>
+              </header>
+              <br/>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione illo hic ipsum voluptatibus unde doloribus rerum, aspernatur, similique necessitatibus fugit illum, distinctio eveniet consequuntur veritatis iure nostrum placeat aperiam. Corporis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <br/>
+              <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+              </ul>
+              <br/>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione illo hic ipsum voluptatibus unde doloribus rerum, aspernatur, similique necessitatibus fugit illum, distinctio eveniet consequuntur veritatis iure nostrum placeat aperiam. Corporis.</p>
+              <br/>
+              <hr>
+              <br/>
+              <div class="text-center">
+                <h6>How would you rate this article?</h6>
+                <div>
+                  <button type="button" class="btn btn-outline-secondary">Not helpful</button>
+                  <button type="button" class="btn btn-outline-success">Helpful</button>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="list-translation" role="tabpanel" aria-labelledby="list-translation-list">
+              <header>
+                <h5>The Translation View</h5>
+              </header>
+              <br/>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione illo hic ipsum voluptatibus unde doloribus rerum, aspernatur, similique necessitatibus fugit illum, distinctio eveniet consequuntur veritatis iure nostrum placeat aperiam. Corporis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <br/>
+              <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+              </ul>
+              <br/>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione illo hic ipsum voluptatibus unde doloribus rerum, aspernatur, similique necessitatibus fugit illum, distinctio eveniet consequuntur veritatis iure nostrum placeat aperiam. Corporis.</p>
+              <br/>
+              <hr>
+              <br/>
+              <div class="text-center">
+                <h6>How would you rate this article?</h6>
+                <div>
+                  <button type="button" class="btn btn-outline-secondary">Not helpful</button>
+                  <button type="button" class="btn btn-outline-success">Helpful</button>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="list-resource" role="tabpanel" aria-labelledby="list-resource-list">
+              <header>
+                <h5>The Resource View</h5>
+              </header>
+              <br/>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione illo hic ipsum voluptatibus unde doloribus rerum, aspernatur, similique necessitatibus fugit illum, distinctio eveniet consequuntur veritatis iure nostrum placeat aperiam. Corporis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <br/>
+              <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+              </ul>
+              <br/>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione illo hic ipsum voluptatibus unde doloribus rerum, aspernatur, similique necessitatibus fugit illum, distinctio eveniet consequuntur veritatis iure nostrum placeat aperiam. Corporis.</p>
+              <br/>
+              <hr>
+              <br/>
+              <div class="text-center">
+                <h6>How would you rate this article?</h6>
+                <div>
+                  <button type="button" class="btn btn-outline-secondary">Not helpful</button>
+                  <button type="button" class="btn btn-outline-success">Helpful</button>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="list-content" role="tabpanel" aria-labelledby="list-content-list">
+              <header>
+                <h5>The Content Manager</h5>
+              </header>
+              <br/>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione illo hic ipsum voluptatibus unde doloribus rerum, aspernatur, similique necessitatibus fugit illum, distinctio eveniet consequuntur veritatis iure nostrum placeat aperiam. Corporis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <br/>
+              <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+              </ul>
+              <br/>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione illo hic ipsum voluptatibus unde doloribus rerum, aspernatur, similique necessitatibus fugit illum, distinctio eveniet consequuntur veritatis iure nostrum placeat aperiam. Corporis.</p>
+              <br/>
+              <hr>
+              <br/>
+              <div class="text-center">
+                <h6>How would you rate this article?</h6>
+                <div>
+                  <button type="button" class="btn btn-outline-secondary">Not helpful</button>
+                  <button type="button" class="btn btn-outline-success">Helpful</button>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="list-taxonomy" role="tabpanel" aria-labelledby="list-taxonomy-list">
+              <header>
+                <h5>The Taxonomy Manager</h5>
+              </header>
+              <br/>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione illo hic ipsum voluptatibus unde doloribus rerum, aspernatur, similique necessitatibus fugit illum, distinctio eveniet consequuntur veritatis iure nostrum placeat aperiam. Corporis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <br/>
+              <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+              </ul>
+              <br/>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione illo hic ipsum voluptatibus unde doloribus rerum, aspernatur, similique necessitatibus fugit illum, distinctio eveniet consequuntur veritatis iure nostrum placeat aperiam. Corporis.</p>
+              <br/>
+              <hr>
+              <br/>
+              <div class="text-center">
+                <h6>How would you rate this article?</h6>
+                <div>
+                  <button type="button" class="btn btn-outline-secondary">Not helpful</button>
+                  <button type="button" class="btn btn-outline-success">Helpful</button>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="list-author" role="tabpanel" aria-labelledby="list-author-list">
+              <header>
+                <h5>Authoring</h5>
+              </header>
+              <br/>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione illo hic ipsum voluptatibus unde doloribus rerum, aspernatur, similique necessitatibus fugit illum, distinctio eveniet consequuntur veritatis iure nostrum placeat aperiam. Corporis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <br/>
+              <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+              </ul>
+              <br/>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione illo hic ipsum voluptatibus unde doloribus rerum, aspernatur, similique necessitatibus fugit illum, distinctio eveniet consequuntur veritatis iure nostrum placeat aperiam. Corporis.</p>
+              <br/>
+              <hr>
+              <br/>
+              <div class="text-center">
+                <h6>How would you rate this article?</h6>
+                <div>
+                  <button type="button" class="btn btn-outline-secondary">Not helpful</button>
+                  <button type="button" class="btn btn-outline-success">Helpful</button>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="list-var" role="tabpanel" aria-labelledby="list-var-list">
+              <header>
+                <h5>Variables</h5>
+              </header>
+              <br/>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione illo hic ipsum voluptatibus unde doloribus rerum, aspernatur, similique necessitatibus fugit illum, distinctio eveniet consequuntur veritatis iure nostrum placeat aperiam. Corporis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <br/>
+              <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+              </ul>
+              <br/>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione illo hic ipsum voluptatibus unde doloribus rerum, aspernatur, similique necessitatibus fugit illum, distinctio eveniet consequuntur veritatis iure nostrum placeat aperiam. Corporis.</p>
+              <br/>
+              <hr>
+              <br/>
+              <div class="text-center">
+                <h6>How would you rate this article?</h6>
+                <div>
+                  <button type="button" class="btn btn-outline-secondary">Not helpful</button>
+                  <button type="button" class="btn btn-outline-success">Helpful</button>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="list-publish" role="tabpanel" aria-labelledby="list-publish-list">
+              <header>
+                <h5>Publishing</h5>
+              </header>
+              <br/>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione illo hic ipsum voluptatibus unde doloribus rerum, aspernatur, similique necessitatibus fugit illum, distinctio eveniet consequuntur veritatis iure nostrum placeat aperiam. Corporis.</p>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+              <br/>
+              <ul>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</li>
+              </ul>
+              <br/>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione illo hic ipsum voluptatibus unde doloribus rerum, aspernatur, similique necessitatibus fugit illum, distinctio eveniet consequuntur veritatis iure nostrum placeat aperiam. Corporis.</p>
+              <br/>
+              <hr>
+              <br/>
+              <div class="text-center">
+                <h6>How would you rate this article?</h6>
+                <div>
+                  <button type="button" class="btn btn-outline-secondary">Not helpful</button>
+                  <button type="button" class="btn btn-outline-success">Helpful</button>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="list-workflow" role="tabpanel" aria-labelledby="list-workflow-list">
+              <header>
+                <h5>Workflow and assigments</h5>
+              </header>
+              <p></p>
+            </div>
+            <div class="tab-pane fade" id="list-version" role="tabpanel" aria-labelledby="list-version-list">
+              <header>
+                <h5>Version Management</h5>
+              </header>
+              <p></p>
+            </div>
+            <div class="tab-pane fade" id="list-search" role="tabpanel" aria-labelledby="list-search-list">
+              <header>
+                <h5>Searching and Navigating</h5>
+              </header>
+              <p></p>
+            </div><div class="tab-pane fade" id="list-import" role="tabpanel" aria-labelledby="list-import-list">
+              <header>
+                <h5>Importing</h5>
+              </header>
+              <p></p>
+            </div>
+            <div class="tab-pane fade" id="list-admin" role="tabpanel" aria-labelledby="list-admin-list">
+              <header>
+                <h5>Settings and Administration</h5>
+              </header>
+              <p></p>
+            </div>
+            <div class="tab-pane fade" id="list-glossary" role="tabpanel" aria-labelledby="list-glossary-list">
+              <header>
+                <h5>Glossary</h5>
+              </header>
+              <p></p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
